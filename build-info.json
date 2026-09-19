@@ -1,8 +1,14 @@
 {
   "source_repository": "ANNYUcreator/game",
   "source_branch": "development/0.3.0",
-  "source_commit": "abb4355815b15c934844065948fa2ec82dcaabc9",
+  "source_commit": "f04a354a6c9750e5d67655f2356130db6aa0b600",
   "godot": "4.7.2.stable.official.ed1daf0bf",
   "export_preset": "Web",
-  "web_template": "web_nothreads_release.zip"
+  "web_template": "web_nothreads_release.zip",
+  "mobile_web_optimization": {
+    "pck_bytes": 21673680,
+    "defer_3d_title_preview": true,
+    "web_font_subset": true,
+    "cache_busted_asset_prefix": "mosslight-f04a354"
+  }
 }
