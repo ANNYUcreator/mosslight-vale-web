@@ -1,0 +1,8 @@
+{
+  "source_repository": "ANNYUcreator/game",
+  "source_branch": "development/0.3.0",
+  "source_commit": "abb4355815b15c934844065948fa2ec82dcaabc9",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "export_preset": "Web",
+  "web_template": "web_nothreads_release.zip"
+}
