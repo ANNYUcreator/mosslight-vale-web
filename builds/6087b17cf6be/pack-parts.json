@@ -1,0 +1,26 @@
+{
+  "bytes": 119216164,
+  "sha256": "c3883bd3061b4ac1e46a1223d1198131488fa3964b930cca00df6f37540ab7ca",
+  "parts": [
+    {
+      "name": "pack-00.bin",
+      "bytes": 33554432,
+      "sha256": "c249c3f4b7ffca23d30fd749ed02e9c01404500a2dd16085ae2b1e4fc555eac5"
+    },
+    {
+      "name": "pack-01.bin",
+      "bytes": 33554432,
+      "sha256": "fb8f4da4e84cca3b6e82038cefc416a9b2238b05cdf0f84ee1fb0e247d624e9f"
+    },
+    {
+      "name": "pack-02.bin",
+      "bytes": 33554432,
+      "sha256": "2e6152b79f376d7734e81f652d27441acf726a21b19ec0f535fe4aa3ac676bc7"
+    },
+    {
+      "name": "pack-03.bin",
+      "bytes": 18552868,
+      "sha256": "9dcf89c360c17e01f7362cfc2c81f385444b9da986308543391c4d6be49b9b7b"
+    }
+  ]
+}
