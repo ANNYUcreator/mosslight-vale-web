@@ -1,7 +1,7 @@
 {
-  "source_commit": "e2afda10f48e346a5c2c6a45e3c71dc9639507ea",
+  "source_commit": "4f84782536432444b2b1540cbabb1bcfc57714d0",
   "source_branch": "task/web-platform-20260923",
-  "native_source_commit": "74d524ef7b177080b9aaddb1b8e97fd64c2efcc2",
+  "native_source_commit": "7e864c4efe210386d5733e83044a2e4bb21b5925",
   "engine": "4.7.2.stable.official.ed1daf0bf",
   "platform": "Web",
   "threads": false,
@@ -31,7 +31,7 @@
     },
     "index.html": {
       "bytes": 5691,
-      "sha256": "ef6cccd8b7ea521e45b86d66021a453e9d291e64f6804edac3453754ebac4e80"
+      "sha256": "d4678182baf7fa9182358b4fa8c4eccddb73e22c0a487fe3c0e119e2bc5f1b76"
     },
     "index.png": {
       "bytes": 21443,
@@ -51,7 +51,7 @@
     },
     "pack-04.bin": {
       "bytes": 16777216,
-      "sha256": "eff569a3a8b64c4a8aa4218ba67c7a0b8b2a778f87e5c5f538e0c041fd921b45"
+      "sha256": "1297bd9fb1c50ce1b756071a389b17469fd37420f443b74f1538f01e3221840c"
     },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
@@ -63,31 +63,31 @@
     },
     "pack-05.bin": {
       "bytes": 16777216,
-      "sha256": "46bd187eb78509c84311bb7c5b97a55693e229d459a9987b6e5035778a4cf5e9"
+      "sha256": "c06d1aefb58101bd31775744719d928adddd44add84de40bb9cdc4812f619395"
     },
     "pack-07.bin": {
-      "bytes": 3662676,
-      "sha256": "2e6cbb687e9ec7fc9536778bccc5233e948b86ce65366eb928c275d3503a2ba5"
+      "bytes": 3680708,
+      "sha256": "fac4cfdc929315f672fd5788be21eccf98f35a1d9c9b4f73b63e681472e8390a"
     },
     "pack-06.bin": {
       "bytes": 16777216,
-      "sha256": "f3e20377bc1e90b26bebd7e1decc4acaeedb3c3edc06297fe73c0de52acb4f48"
+      "sha256": "0bf48332c635b6feb286d7f43d45634396b31776cde84761f71ba131cbb28d5e"
     },
     "pack-02.bin": {
       "bytes": 16777216,
-      "sha256": "e8268080f939cab650b2fc83f1a8e9b3ff1a96a2ea6931a69540a6a8dd2bb5f7"
+      "sha256": "69b22bef8fb162ee16141e15b3a3ee6022a0dc6ffe84f6d90f01f9bd4ef78d9b"
     },
     "pack-03.bin": {
       "bytes": 16777216,
-      "sha256": "aa99c60190a948a52d2f9f826b554e5aab1ace6023820e5349780bd018e54273"
+      "sha256": "deab9ff270339697bbbd35a27c5cf82cf9ee48b05518e0a17a512be732399829"
     },
     "pack-01.bin": {
       "bytes": 16777216,
-      "sha256": "fa6a826760edfd9eefa99514494dfd3fdcbff58dc75b71d0cb20576dad25858c"
+      "sha256": "bf0117420672983501a62b2dede8f509fbf647554ea13ccfc7aa06f5cde1261e"
     },
     "pack-parts.json": {
       "bytes": 1320,
-      "sha256": "31c47328a2c2fc5a9e212308b2c8e64b36db1d0178d0ad03dfb4199abd7a1b3f"
+      "sha256": "9fc25e9b71a16652b92e246279df5a97eb9111d5ac8797dd715dba4fda736104"
     },
     "pack_loader.js": {
       "bytes": 2257,
@@ -95,15 +95,15 @@
     },
     "pack-00.bin": {
       "bytes": 16777216,
-      "sha256": "dfeb284e718c6ea738b6ff03ac23dfd76bdb4dd1b019d6da104a02049c9e499e"
+      "sha256": "58f583886c2f74779f83ee4126dbeaa18a62fc1e0872cbb6572b2b2acf1c2399"
     },
     "touch_controls.js": {
       "bytes": 5803,
       "sha256": "5ed6ee0ae18e826a0978e8b5ef34f664f06f67190d6eca5f1777ac7c8b65b27a"
     }
   },
-  "exported_at": "2026-09-24T23:45:27.899689-07:00",
-  "packaging_commit": "e2afda10f48e346a5c2c6a45e3c71dc9639507ea",
+  "exported_at": "2026-09-24T23:56:28.255429-07:00",
+  "packaging_commit": "4f84782536432444b2b1540cbabb1bcfc57714d0",
   "pack_transfer": "byte-identical 16MiB parts with per-part browser SHA256 verification and retry",
-  "original_pack_sha256": "9fffa8915377529b96d4d97e2ea0757280285ab9d36ceee29f68f2b674addcc3"
+  "original_pack_sha256": "0c012476138fbf69b2fc2af1208bda2dc1cbf036b21126a4d57e5ec6d2c0bd35"
 }
