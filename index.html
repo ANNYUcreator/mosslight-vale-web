@@ -111,12 +111,15 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="index.js"></script><script src="pack_loader.js"></script>
+		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":121121220,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":65355724,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
+const mossCanvas=document.getElementById('canvas');
+function mossResizeCanvas(){const w=Math.max(320,innerWidth),h=Math.max(240,innerHeight),s=Math.min(1,1024/w,640/h);mossCanvas.width=Math.max(1,Math.round(w*s));mossCanvas.height=Math.max(1,Math.round(h*s));}
+mossResizeCanvas();addEventListener('resize',mossResizeCanvas,{passive:true});
+
 const engine = new Engine(GODOT_CONFIG);
-window.mossInstallPackLoader(engine);
 
 (function () {
 	const statusOverlay = document.getElementById('status');

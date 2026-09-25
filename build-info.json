@@ -1,5 +1,5 @@
 {
-  "source_commit": "4f84782536432444b2b1540cbabb1bcfc57714d0",
+  "source_commit": "ef9feb4844605c359f7347dde77ca0ae733073d8",
   "source_branch": "task/web-platform-20260923",
   "native_source_commit": "7e864c4efe210386d5733e83044a2e4bb21b5925",
   "engine": "4.7.2.stable.official.ed1daf0bf",
@@ -9,6 +9,7 @@
     1024,
     640
   ],
+  "canvas_dpr_policy": "CSS-pixel backing store capped at 1024x640",
   "touch_controls": "analog joystick + right-side drag camera",
   "cross_origin_isolation": false,
   "native_application_modified": false,
@@ -30,8 +31,8 @@
       "sha256": "a54d210229be778e2976208c022ed6bb1112569a106e1110bedbf68f6db2c135"
     },
     "index.html": {
-      "bytes": 5691,
-      "sha256": "d4678182baf7fa9182358b4fa8c4eccddb73e22c0a487fe3c0e119e2bc5f1b76"
+      "bytes": 5955,
+      "sha256": "1e536edaf8d6c5af889dc57b2bb7e9de333c0fe60fef47b84534162dd260891c"
     },
     "index.png": {
       "bytes": 21443,
@@ -49,10 +50,6 @@
       "bytes": 1122,
       "sha256": "4366869b66df722394cf6046e1eed282b992440913fe7059126ec3c62493c685"
     },
-    "pack-04.bin": {
-      "bytes": 16777216,
-      "sha256": "1297bd9fb1c50ce1b756071a389b17469fd37420f443b74f1538f01e3221840c"
-    },
     "index.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
@@ -61,49 +58,17 @@
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "pack-05.bin": {
-      "bytes": 16777216,
-      "sha256": "c06d1aefb58101bd31775744719d928adddd44add84de40bb9cdc4812f619395"
-    },
-    "pack-07.bin": {
-      "bytes": 3680708,
-      "sha256": "fac4cfdc929315f672fd5788be21eccf98f35a1d9c9b4f73b63e681472e8390a"
-    },
-    "pack-06.bin": {
-      "bytes": 16777216,
-      "sha256": "0bf48332c635b6feb286d7f43d45634396b31776cde84761f71ba131cbb28d5e"
-    },
-    "pack-02.bin": {
-      "bytes": 16777216,
-      "sha256": "69b22bef8fb162ee16141e15b3a3ee6022a0dc6ffe84f6d90f01f9bd4ef78d9b"
-    },
-    "pack-03.bin": {
-      "bytes": 16777216,
-      "sha256": "deab9ff270339697bbbd35a27c5cf82cf9ee48b05518e0a17a512be732399829"
-    },
-    "pack-01.bin": {
-      "bytes": 16777216,
-      "sha256": "bf0117420672983501a62b2dede8f509fbf647554ea13ccfc7aa06f5cde1261e"
-    },
-    "pack-parts.json": {
-      "bytes": 1320,
-      "sha256": "9fc25e9b71a16652b92e246279df5a97eb9111d5ac8797dd715dba4fda736104"
-    },
-    "pack_loader.js": {
-      "bytes": 2257,
-      "sha256": "64c3f76300712e2e73cfb2a6682f085ce320521f6df11f49d4a4cf9af2a2a397"
-    },
-    "pack-00.bin": {
-      "bytes": 16777216,
-      "sha256": "58f583886c2f74779f83ee4126dbeaa18a62fc1e0872cbb6572b2b2acf1c2399"
+    "index.pck": {
+      "bytes": 65355724,
+      "sha256": "9f3c80a0efcda4b471d28e0c392a86e98c9b5fa6a54bd1a9d83b4ed0a8e8e704"
     },
     "touch_controls.js": {
       "bytes": 5803,
       "sha256": "5ed6ee0ae18e826a0978e8b5ef34f664f06f67190d6eca5f1777ac7c8b65b27a"
     }
   },
-  "exported_at": "2026-09-24T23:56:28.255429-07:00",
-  "packaging_commit": "4f84782536432444b2b1540cbabb1bcfc57714d0",
-  "pack_transfer": "byte-identical 16MiB parts with per-part browser SHA256 verification and retry",
-  "original_pack_sha256": "0c012476138fbf69b2fc2af1208bda2dc1cbf036b21126a4d57e5ec6d2c0bd35"
+  "exported_at": "2026-09-25T00:11:34.681483-07:00",
+  "packaging_commit": "ef9feb4844605c359f7347dde77ca0ae733073d8",
+  "pack_transfer": "direct index.pck fetch; no page-side PCK reconstruction",
+  "original_pack_sha256": "9f3c80a0efcda4b471d28e0c392a86e98c9b5fa6a54bd1a9d83b4ed0a8e8e704"
 }
